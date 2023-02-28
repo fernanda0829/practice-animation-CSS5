@@ -1,0 +1,103 @@
+/* animation */
+
+@keyframes test {
+  0% {
+    color: aqua;
+    top: 20px;
+    left: 20px;
+  }
+  25% {
+    color: orchid;
+    top: 20px;
+    left: 400px;
+    font-size: 48px;
+  }
+  50% {
+    color: yellowgreen;
+    top: 500px;
+    left: 400px;
+    font-size: 54px;
+  }
+  75% {
+    color: burlywood;
+    top: 500px;
+    left: 20px;
+    font-size: 48px;
+  }
+  100% {
+    color: pink;
+    top: 20px;
+    left: 20px;
+  }
+}
+
+@keyframes test2 {
+  0% {
+    color: aqua;
+    top: 20px;
+    right: 20px;
+  }
+  25% {
+    color: orchid;
+    top: 20px;
+    right: 400px;
+    font-size: 48px;
+  }
+  50% {
+    color: yellowgreen;
+    top: 500px;
+    right: 400px;
+    font-size: 54px;
+  }
+  75% {
+    color: burlywood;
+    top: 500px;
+    right: 20px;
+    font-size: 48px;
+  }
+  100% {
+    color: pink;
+    top: 20px;
+    right: 20px;
+  }
+}
+
+body {
+  margin: 100px;
+  background-color: #f1f1f1;
+}
+
+.background-logo img {
+  display: block;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.test h1 {
+  color: pink;
+  font-size: 36px;
+  font-family: "Pacifico", cursive;
+  position: absolute;
+  animation-name: test;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.test2 h2 {
+  color: pink;
+  font-size: 36px;
+  font-family: "Pacifico", cursive;
+  position: absolute;
+  animation-name: test2;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
